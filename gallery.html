@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Emmy Stitches</title>
+    <meta name="description" content="View the latest creations from Emmy Stitches — premium male fashion in Kano.">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <a href="index.html" class="logo">Emmy<span>Stitches</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <nav id="mainNav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Our Gallery</h2>
+            <p>Explore our finest creations — from regal agbada to sharp suits and elegant female outfits.</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/Senator wears.jpg" alt="Senator Wears" />
+                <div class="overlay"><h4>Senator Wears</h4><p>Traditional elegance</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Corporate wears.jpg" alt="Corporate Wears" />
+                <div class="overlay"><h4>Corporate Wears</h4><p>Professional style</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Jalabia gown.jpg" alt="Jalabia Gown" />
+                <div class="overlay"><h4>Jalabia Gown</h4><p>Timeless elegance</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/2 piece set.jpg" alt="2 Piece Set" />
+                <div class="overlay"><h4>2 Piece Set</h4><p>Modern sophistication</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Combat skirt.jpg" alt="Combat Skirt" />
+                <div class="overlay"><h4>Combat Skirt</h4><p>Bold & stylish</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Hoodies.jpg" alt="Hoodies" />
+                <div class="overlay"><h4>Hoodies</h4><p>Casual comfort</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Baggy jeans.jpg" alt="Baggy Jeans" />
+                <div class="overlay"><h4>Baggy Jeans</h4><p>Street style</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Jeans.jpg" alt="Jeans" />
+                <div class="overlay"><h4>Jeans</h4><p>Classic denim</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <h3>Emmy Stitches</h3>
+            <p>Premium male fashion design based in Kano. We tailor your style with precision, passion, and pride.</p>
+            <div class="dev-badge">Site by <span>Mac-Collins Ukwuoma</span></div>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="services.html">Agbada & Native</a></li>
+                <li><a href="services.html">Suits & Blazers</a></li>
+                <li><a href="services.html">Female Clothing</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="tel:+2349049723195">+234 904 972 3195</a></li>
+                <li><a href="https://wa.me/2349049723195" target="_blank">WhatsApp</a></li>
+                <li>No. 32 Emir Road, Sabongari Kano</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Emmy Stitches. All rights reserved. Crafted with precision in Kano.</p>
+        <div class="developer-credit">
+            Developed by <a href="#" target="_blank">Mac-Collins Ukwuoma</a> · Graphic Realities
+        </div>
+    </div>
+</footer>
+
+<script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('mainNav');
+    toggle.addEventListener('click', () => {
+        toggle.classList.toggle('active');
+        nav.classList.toggle('open');
+    });
+</script>
+
+</body>
+</html>
