@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Emmy Stitches</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <a href="index.html" class="logo">Emmy<span>Stitches</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <nav id="mainNav">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="section">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="images/about.jpg" alt="About Emmy Stitches" />
+            </div>
+            <div class="about-content">
+                <h2>About Emmy Stitches</h2>
+                <h3>Your Trusted <span class="highlight">Fashion Designer</span> in Kano</h3>
+                <p>At Emmy Stitches, we don't just sew clothes — we craft identities. With over 8 years of experience in the fashion industry, we have become a trusted name for premium male fashion in Kano and beyond.</p>
+                <p>From the elegance of agbada to the sharpness of corporate suits, every piece we create is a blend of tradition, modernity, and uncompromising quality. We also design elegant female outfits for special occasions.</p>
+                <p>Located at <strong>No. 32 Emir Road, Sabongari Kano</strong>, we are committed to delivering fashion that speaks confidence, culture, and class.</p>
+                <a href="contact.html" class="btn-primary" style="margin-top: 20px;">Work With Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <h3>Emmy Stitches</h3>
+            <p>Premium male fashion design based in Kano. We tailor your style with precision, passion, and pride.</p>
+            <div class="dev-badge">Site by <span>Mac-Collins Ukwuoma</span></div>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="services.html">Agbada & Native</a></li>
+                <li><a href="services.html">Suits & Blazers</a></li>
+                <li><a href="services.html">Female Clothing</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="tel:+2349049723195">+234 904 972 3195</a></li>
+                <li><a href="https://wa.me/2349049723195" target="_blank">WhatsApp</a></li>
+                <li>No. 32 Emir Road, Sabongari Kano</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Emmy Stitches. All rights reserved. Crafted with precision in Kano.</p>
+        <div class="developer-credit">
+            Developed by <a href="#" target="_blank">Mac-Collins Ukwuoma</a> · Graphic Realities
+        </div>
+    </div>
+</footer>
+
+<script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('mainNav');
+    toggle.addEventListener('click', () => {
+        toggle.classList.toggle('active');
+        nav.classList.toggle('open');
+    });
+</script>
+
+</body>
+</html>
